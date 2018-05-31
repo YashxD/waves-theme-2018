@@ -29,7 +29,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#myPage">Waves 2018 Logo</a>
+      <a class="navbar-brand wow jello animated" href="#myPage">Waves 2018 Logo</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -52,7 +52,7 @@
   </div>
 </nav>
 
-<div id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel">
+<div id="myCarousel" class="carousel slide hidden-xs fadeIn animated" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -61,26 +61,26 @@
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
+    <div class="carousel-inner wow bounceInRight animated" role="listbox" data-wow-duration="1s">
       <div class="item active">
         <img src="img/ny.jpg" alt="Music" width="1200" height="700">
-        <div class="carousel-caption">
+        <div class="carousel-caption wow flipInX animated" data-wow-delay="2s">
           <h3>Music</h3>
           <p>Waves 2018</p>
         </div>
       </div>
 
-      <div class="item">
+      <div class="item wow bounceInRight animated" data-wow-duration="1s">
         <img src="img/chicago.jpg" alt="Art" width="1200" height="700">
-        <div class="carousel-caption">
+        <div class="carousel-caption wow flipInX animated" data-wow-delay="2s">
           <h3>Art</h3>
           <p>Waves 2018</p>
         </div>
       </div>
 
-      <div class="item">
+      <div class="item wow bounceInRight animated" data-wow-duration="1s">
         <img src="img/la.jpg" alt="Dance" width="1200" height="700">
-        <div class="carousel-caption">
+        <div class="carousel-caption wow flipInX animated" data-wow-delay="2s">
           <h3>Dance</h3>
           <p>Waves 2018</p>
         </div>
@@ -105,7 +105,8 @@
   <p>Some sample text can be written here. Description..</p>
   <br>
   <div class="row">
-    <div class="col-sm-4 wow fadeInLeft animated" data-wow-delay="1s" >
+    <div class="col-sm-4 wow fadeInLeft animated" data-wow-delay="0s"
+    style="visibility: visible; animation-delay: 0s; animation-name: fadeInLeft;">
       <p class="text-center"><strong>Date 1</strong></p><br>
       <a href="#dropout1" data-toggle="collapse">
         <img src="img/person.jpg" class="img-circle person" alt="Day 1 picture" width="255" height="255">
@@ -145,8 +146,8 @@
 <!-- Container (BASIC) -->
 <div id="dates" class="bg-1 parallax">
   <div class="container">
-    <h3 class="text-center">SAMPLE SECTION</h3>
-    <p class="text-center">Have Fun!<br> Remember to book your tickets!</p>
+    <h3 class="text-center wow pulse animated" data-wow-duration="2s">SAMPLE SECTION</h3>
+    <p class="text-center wow pulse animated" data-wow-duration="2s">Have Fun!<br> Remember to book your tickets!</p>
  <!--    <ul class="list-group">
       <li class="list-group-item">September <span class="label label-danger">Sold Out!</span></li>
       <li class="list-group-item">October <span class="label label-danger">Sold Out!</span></li>
@@ -198,7 +199,7 @@
 <!-- End of Modal, link the payment gateway -->
 
 <!-- Container (Contact Section) -->
-<div id="register" class="container">
+<div id="register" class="container wow slideInUp animated">
   <h3 id="reg">REGISTRATION</h3>
   <p class="text-center"><em>Welcome!</em></p>
 
